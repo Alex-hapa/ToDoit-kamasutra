@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add function to create new task">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add function onChangeHandler">
+      <change afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681131009995</updated>
       <workItem from="1681131011027" duration="700000" />
-      <workItem from="1681134668108" duration="9349000" />
+      <workItem from="1681134668108" duration="13023000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -74,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681143666923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add function onChangeHandler">
+      <created>1681145229391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681145229391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add function to create new task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function to create new task" />
+    <MESSAGE value="add function onChangeHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function onChangeHandler" />
   </component>
 </project>
