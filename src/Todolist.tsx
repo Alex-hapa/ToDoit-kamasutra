@@ -1,6 +1,7 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 import {FilterValuesType} from './App';
 import styles from './Todolist.module.css';
+import {SuperCheckBox} from './components/SuperCheckBox';
 
 type TaskType = {
     id: string
@@ -56,6 +57,10 @@ export function Todolist(props: PropsType) {
         setFilterName('completed')
     };
 
+    const onChangeHandlerCheckBox = (tId:string,newIsDone: boolean) => {
+        props.checkBoxStatus(tId, newIsDone)
+    }
+
     return <div>
         <h3>{props.title}</h3>
         <div>
@@ -73,12 +78,13 @@ export function Todolist(props: PropsType) {
                 props.tasks.map(t => {
 
                     const onClickHandler = () => props.removeTask(t.id)
-                    const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-                        props.checkBoxStatus(t.id, e.currentTarget.checked)
-                    }
+                    /*  const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
+                          props.checkBoxStatus(t.id, e.currentTarget.checked)
+                      }*/
 
                     return <li key={t.id} className={t.isDone ? styles.isDone : ''}>
-                        <input type="checkbox" checked={t.isDone} onChange={onChangeHandler}/>
+                        {/*<input type="checkbox" checked={t.isDone} onChange={onChangeHandler}/>*/}
+                        <SuperCheckBox callBack={(newIsDone) => onChangeHandlerCheckBox(t.id,newIsDone)} isDone={t.isDone}/>
                         <span>{t.title}</span>
                         <button onClick={onClickHandler}>x</button>
                     </li>

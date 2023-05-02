@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add style to active task button">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add style to executed tasks">
+      <change afterPath="$PROJECT_DIR$/src/components/SuperCheckBox.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
       <workItem from="1682105665926" duration="839000" />
       <workItem from="1682266677759" duration="7780000" />
       <workItem from="1682959528003" duration="5540000" />
-      <workItem from="1683047390313" duration="1768000" />
+      <workItem from="1683047390313" duration="6305000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683048677901</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add style to executed tasks">
+      <created>1683049458453</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683049458453</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +160,7 @@
     <MESSAGE value="add handle error" />
     <MESSAGE value="refactor handle error" />
     <MESSAGE value="add style to active task button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style to active task button" />
+    <MESSAGE value="add style to executed tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style to executed tasks" />
   </component>
 </project>
