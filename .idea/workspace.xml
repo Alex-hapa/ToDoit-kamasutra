@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="refactor handle error">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add style to active task button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
@@ -81,7 +81,7 @@
       <workItem from="1682105665926" duration="839000" />
       <workItem from="1682266677759" duration="7780000" />
       <workItem from="1682959528003" duration="5540000" />
-      <workItem from="1683047390313" duration="1150000" />
+      <workItem from="1683047390313" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682969375994</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add style to active task button">
+      <created>1683048677901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683048677901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,7 @@
     <MESSAGE value="add changeable checkbox" />
     <MESSAGE value="add handle error" />
     <MESSAGE value="refactor handle error" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor handle error" />
+    <MESSAGE value="add style to active task button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style to active task button" />
   </component>
 </project>
