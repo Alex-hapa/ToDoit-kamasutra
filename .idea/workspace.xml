@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add style to executed tasks">
-      <change afterPath="$PROJECT_DIR$/src/components/SuperCheckBox.tsx" afterDir="false" />
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add component SuperCheckBox.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Todolist.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SuperCheckBox.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/forExMond&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/ToDoit-kamasutra&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -81,7 +83,10 @@
       <workItem from="1682105665926" duration="839000" />
       <workItem from="1682266677759" duration="7780000" />
       <workItem from="1682959528003" duration="5540000" />
-      <workItem from="1683047390313" duration="6305000" />
+      <workItem from="1683047390313" duration="6760000" />
+      <workItem from="1684425524892" duration="211000" />
+      <workItem from="1685342625731" duration="23000" />
+      <workItem from="1685343339196" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -146,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683049458453</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add component SuperCheckBox.tsx">
+      <created>1683056162404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683056162404</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +173,7 @@
     <MESSAGE value="refactor handle error" />
     <MESSAGE value="add style to active task button" />
     <MESSAGE value="add style to executed tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style to executed tasks" />
+    <MESSAGE value="add component SuperCheckBox.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add component SuperCheckBox.tsx" />
   </component>
 </project>
