@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="fix filter method for tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="fix changeStatus function">
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
@@ -38,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/IT-k/IT-camasutra",
+    "last_opened_file_path": "C:/Projects/forExMond",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -87,7 +86,7 @@
       <workItem from="1685343339196" duration="8581000" />
       <workItem from="1685385411667" duration="622000" />
       <workItem from="1685465966997" duration="19000" />
-      <workItem from="1685526986653" duration="2720000" />
+      <workItem from="1685526986653" duration="7682000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -173,7 +172,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685527548958</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add associative array and fix remove function">
+      <created>1685555133848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685555133848</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix addtask function">
+      <created>1685557277508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685557277508</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix changeStatus function">
+      <created>1685558238414</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685558238414</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +211,9 @@
     <MESSAGE value="add component SuperCheckBox.tsx" />
     <MESSAGE value="refactor project" />
     <MESSAGE value="fix filter method for tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix filter method for tasks" />
+    <MESSAGE value="add associative array and fix remove function" />
+    <MESSAGE value="fix addtask function" />
+    <MESSAGE value="fix changeStatus function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix changeStatus function" />
   </component>
 </project>

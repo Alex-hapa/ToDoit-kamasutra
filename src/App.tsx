@@ -46,7 +46,10 @@ function App() {
         ]
     })
 
-
+    const removeTodolist = (todolistsID: string) => {
+        setTodolists(todolists.filter(el => el.id !== todolistsID))
+        delete tasks[todolistsID]
+    }
     // let [tasks, setTasks] = useState([
     //     {id: v1(), title: 'HTML&CSS', isDone: true},
     //     {id: v1(), title: 'JS', isDone: true},
@@ -107,6 +110,7 @@ function App() {
                         addTask={addTask}
                         changeTaskStatus={changeStatus}
                         filter={el.filter}
+                        removeTodolist={removeTodolist}
                     />
                 )
             })}
