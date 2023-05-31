@@ -56,12 +56,12 @@ function App() {
     // ]);
 
     function removeTask(todolistsID: string, taskId: string) {
-        setTasks({...tasks, [todolistsID]: tasks[todolistsID].filter(el => el.id!==taskId)})
+        setTasks({...tasks, [todolistsID]: tasks[todolistsID].filter(el => el.id !== taskId)})
         // let filteredTasks = tasks.filter(t => t.id !== id);
         // setTasks(filteredTasks);
     }
 
-    function addTask(todolistsID: string,title: string) {
+    function addTask(todolistsID: string, title: string) {
         let newTask = {id: v1(), title: title, isDone: false};
         setTasks({...tasks, [todolistsID]: [newTask, ...tasks[todolistsID]]})
 
@@ -69,7 +69,8 @@ function App() {
         // setTasks(newTasks);
     }
 
-    function changeStatus(taskId: string, isDone: boolean) {
+    function changeStatus(todolistsID: string, taskId: string, isDone: boolean) {
+        setTasks({...tasks, [todolistsID]: tasks[todolistsID].map(el => el.id === taskId ? {...el, isDone} : el)})
         // let task = tasks.find(t => t.id === taskId);
         // if (task) {
         //     task.isDone = isDone;
