@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add universal form component">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add functionality to additemform">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,9 @@
       <workItem from="1685640247720" duration="14000" />
       <workItem from="1686232997405" duration="2777000" />
       <workItem from="1686483851206" duration="1420000" />
-      <workItem from="1687111404255" duration="1306000" />
+      <workItem from="1687111404255" duration="2840000" />
+      <workItem from="1687205990151" duration="19000" />
+      <workItem from="1687711011093" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686239856128</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add functionality to additemform">
+      <created>1687114294160</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687114294160</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +252,7 @@
     <MESSAGE value="add removeTodolist function" />
     <MESSAGE value="refactor project" />
     <MESSAGE value="add universal form component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add universal form component" />
+    <MESSAGE value="add functionality to additemform" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functionality to additemform" />
   </component>
 </project>
