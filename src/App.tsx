@@ -36,6 +36,9 @@ function App() {
         ]
     });
 
+    const updateTask = (todolistId: string, taskId:string, updateTitle:string) => {
+        setTasks({...tasks,[todolistId]:tasks[todolistId].map(el=>el.id===taskId ? {...el,title:updateTitle}:el)})
+    }
 
     function removeTask(id: string, todolistId: string) {
         //достанем нужный массив по todolistId:
@@ -87,10 +90,10 @@ function App() {
     }
 
     const addTodolist = (newTitle: string) => {
-        const todolistID =v1()
-        const newTodo:TodolistType = {id: todolistID, title: newTitle, filter: 'all'}
+        const todolistID = v1()
+        const newTodo: TodolistType = {id: todolistID, title: newTitle, filter: 'all'}
         setTodolists([...todolists, newTodo])
-        setTasks({...tasks,[todolistID]:[]})
+        setTasks({...tasks, [todolistID]: []})
     }
 
     return (
@@ -119,6 +122,7 @@ function App() {
                         changeTaskStatus={changeStatus}
                         filter={tl.filter}
                         removeTodolist={removeTodolist}
+                        updateTask={updateTask}
                     />
                 })
             }
