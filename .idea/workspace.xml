@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add logic to component EditableSpan">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="upgrade logic in component EditableSpan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditableSpan.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,8 @@
       <workItem from="1688059482896" duration="1183000" />
       <workItem from="1688140630153" duration="1199000" />
       <workItem from="1688284309886" duration="3103000" />
-      <workItem from="1688324330885" duration="6031000" />
+      <workItem from="1688324330885" duration="6199000" />
+      <workItem from="1688368726273" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688325003573</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="upgrade logic in component EditableSpan">
+      <created>1688331665359</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688331665359</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +298,7 @@
     <MESSAGE value="add function addTodolist" />
     <MESSAGE value="create new universal component EditableSpan" />
     <MESSAGE value="add logic to component EditableSpan" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logic to component EditableSpan" />
+    <MESSAGE value="upgrade logic in component EditableSpan" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade logic in component EditableSpan" />
   </component>
 </project>
