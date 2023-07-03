@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add function upgrade todolist's name">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="refactor code and install material ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,8 @@
       <workItem from="1688368726273" duration="1623000" />
       <workItem from="1688385564601" duration="606000" />
       <workItem from="1688402501492" duration="758000" />
-      <workItem from="1688409445294" duration="358000" />
+      <workItem from="1688409445294" duration="686000" />
+      <workItem from="1688411006826" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -282,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688369718652</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="refactor code and install material ui">
+      <created>1688410131711</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688410131711</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +317,7 @@
     <MESSAGE value="add logic to component EditableSpan" />
     <MESSAGE value="upgrade logic in component EditableSpan" />
     <MESSAGE value="add function upgrade todolist's name" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function upgrade todolist's name" />
+    <MESSAGE value="refactor code and install material ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code and install material ui" />
   </component>
 </project>
