@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add styles to buttons to remove tasks and todolists">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add styles to buttons to filter tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,8 @@
       <workItem from="1688402501492" duration="758000" />
       <workItem from="1688409445294" duration="686000" />
       <workItem from="1688411006826" duration="3094000" />
-      <workItem from="1688474047718" duration="1318000" />
+      <workItem from="1688474047718" duration="1659000" />
+      <workItem from="1688495783710" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -302,14 +303,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688415097084</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add styles to buttons to filter tasks">
+      <created>1688475421337</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688475421337</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add function onChangeHandler" />
     <MESSAGE value="refactor code" />
     <MESSAGE value="add changeable checkbox" />
     <MESSAGE value="add handle error" />
@@ -334,6 +341,7 @@
     <MESSAGE value="refactor code and install material ui" />
     <MESSAGE value="add styles to input button" />
     <MESSAGE value="add styles to buttons to remove tasks and todolists" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styles to buttons to remove tasks and todolists" />
+    <MESSAGE value="add styles to buttons to filter tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styles to buttons to filter tasks" />
   </component>
 </project>
