@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add ButtonAppBar component">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add container to layout">
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,7 @@
       <workItem from="1688474047718" duration="1659000" />
       <workItem from="1688495783710" duration="2676000" />
       <workItem from="1688547306579" duration="478000" />
-      <workItem from="1688547825665" duration="881000" />
+      <workItem from="1688547825665" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -339,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688548067016</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add container to layout">
+      <created>1688550344038</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688550344038</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add style to active task button" />
     <MESSAGE value="add style to executed tasks" />
     <MESSAGE value="add component SuperCheckBox.tsx" />
     <MESSAGE value="fix filter method for tasks" />
@@ -371,6 +377,7 @@
     <MESSAGE value="add styles to checkbox" />
     <MESSAGE value="add styles to input error" />
     <MESSAGE value="add ButtonAppBar component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ButtonAppBar component" />
+    <MESSAGE value="add container to layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="add container to layout" />
   </component>
 </project>
