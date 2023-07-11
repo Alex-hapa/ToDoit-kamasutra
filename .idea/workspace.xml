@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add directory state and create file for todolists-reducer">
-      <change afterPath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" afterDir="false" />
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to remove todolist and write test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Projects/ToDoit-kamasutra/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "C:\\Projects\\ToDoit-kamasutra\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -55,7 +56,19 @@
       <recent name="C:\Projects\ToDoit-kamasutra\src\state" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.correct todolist should be removed">
+  <component name="RunManager" selected="Jest.correct todolist should be added">
+    <configuration name="correct todolist should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" />
+      <test-names>
+        <test-name value="correct todolist should be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="correct todolist should be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -80,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.correct todolist should be added" />
         <item itemvalue="Jest.correct todolist should be removed" />
         <item itemvalue="npm.start" />
       </list>
@@ -134,7 +148,7 @@
       <workItem from="1688840821538" duration="133000" />
       <workItem from="1688981728657" duration="1216000" />
       <workItem from="1689015933577" duration="101000" />
-      <workItem from="1689062555544" duration="4366000" />
+      <workItem from="1689062555544" duration="6004000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -402,14 +416,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689064604965</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add code to todolists-reducer to remove todolist and write test">
+      <created>1689067386567</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1689067386567</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix addtask function" />
     <MESSAGE value="fix changeStatus function" />
     <MESSAGE value="add removeTodolist function" />
     <MESSAGE value="refactor project" />
@@ -434,6 +454,7 @@
     <MESSAGE value="add more styles" />
     <MESSAGE value="refactor code" />
     <MESSAGE value="add directory state and create file for todolists-reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add directory state and create file for todolists-reducer" />
+    <MESSAGE value="add code to todolists-reducer to remove todolist and write test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to remove todolist and write test" />
   </component>
 </project>
