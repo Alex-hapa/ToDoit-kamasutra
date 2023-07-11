@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add more styles">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="refactor code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +113,7 @@
       <workItem from="1688840821538" duration="133000" />
       <workItem from="1688981728657" duration="1216000" />
       <workItem from="1689015933577" duration="101000" />
+      <workItem from="1689062555544" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -371,14 +367,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688551635906</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="refactor code">
+      <created>1689062728252</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062728252</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix filter method for tasks" />
     <MESSAGE value="add associative array and fix remove function" />
     <MESSAGE value="fix addtask function" />
     <MESSAGE value="fix changeStatus function" />
@@ -403,6 +405,7 @@
     <MESSAGE value="add container to layout" />
     <MESSAGE value="add grid container to todolist and tasks" />
     <MESSAGE value="add more styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more styles" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
