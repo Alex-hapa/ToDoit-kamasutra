@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to change name todolist and write test">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to change filter todolist and write test">
+      <change afterPath="$PROJECT_DIR$/src/components/SuperCheckbox.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -117,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.correct todolist should be changed" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Jest.correct todolist should be changed" />
         <item itemvalue="Jest.correct todolist should change name" />
         <item itemvalue="Jest.correct todolist should be added" />
         <item itemvalue="Jest.correct todolist should be removed" />
@@ -180,7 +180,9 @@
       <workItem from="1689246381883" duration="1541000" />
       <workItem from="1689270450595" duration="2425000" />
       <workItem from="1689318844605" duration="3895000" />
-      <workItem from="1689330719106" duration="1067000" />
+      <workItem from="1689330719106" duration="1701000" />
+      <workItem from="1689345825256" duration="4421000" />
+      <workItem from="1689365071460" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -476,14 +478,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689322392798</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add code to todolists-reducer to change filter todolist and write test">
+      <created>1689331831368</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1689331831368</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor project" />
     <MESSAGE value="add universal form component" />
     <MESSAGE value="add functionality to additemform" />
     <MESSAGE value="fix problems" />
@@ -508,6 +516,7 @@
     <MESSAGE value="add code to todolists-reducer to remove todolist and write test" />
     <MESSAGE value="add code to todolists-reducer to add todolist and write test" />
     <MESSAGE value="add code to todolists-reducer to change name todolist and write test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to change name todolist and write test" />
+    <MESSAGE value="add code to todolists-reducer to change filter todolist and write test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to change filter todolist and write test" />
   </component>
 </project>
