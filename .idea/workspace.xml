@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to add todolist and write test">
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to change name todolist and write test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
@@ -56,7 +56,7 @@
       <recent name="C:\Projects\ToDoit-kamasutra\src\state" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.correct todolist should change name">
+  <component name="RunManager" selected="Jest.correct todolist should be changed">
     <configuration name="correct todolist should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -66,6 +66,18 @@
       <test-file value="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" />
       <test-names>
         <test-name value="correct todolist should be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="correct todolist should be changed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" />
+      <test-names>
+        <test-name value="correct todolist should be changed" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -105,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.correct todolist should be changed" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.correct todolist should change name" />
         <item itemvalue="Jest.correct todolist should be added" />
         <item itemvalue="Jest.correct todolist should be removed" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +179,8 @@
       <workItem from="1689191951094" duration="729000" />
       <workItem from="1689246381883" duration="1541000" />
       <workItem from="1689270450595" duration="2425000" />
-      <workItem from="1689318844605" duration="3040000" />
+      <workItem from="1689318844605" duration="3895000" />
+      <workItem from="1689330719106" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -448,14 +462,27 @@
       <option name="project" value="LOCAL" />
       <updated>1689069028184</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add code to todolists-reducer to change name todolist and write test">
+      <created>1689322385910</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1689322385910</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add code to todolists-reducer to change name todolist and write test">
+      <created>1689322392798</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689322392798</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add removeTodolist function" />
     <MESSAGE value="refactor project" />
     <MESSAGE value="add universal form component" />
     <MESSAGE value="add functionality to additemform" />
@@ -480,6 +507,7 @@
     <MESSAGE value="add directory state and create file for todolists-reducer" />
     <MESSAGE value="add code to todolists-reducer to remove todolist and write test" />
     <MESSAGE value="add code to todolists-reducer to add todolist and write test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to add todolist and write test" />
+    <MESSAGE value="add code to todolists-reducer to change name todolist and write test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to change name todolist and write test" />
   </component>
 </project>
