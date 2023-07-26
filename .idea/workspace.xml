@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add code to todolists-reducer to change filter todolist and write test">
-      <change afterPath="$PROJECT_DIR$/src/components/SuperCheckbox.tsx" afterDir="false" />
+    <list default="true" id="e4c395ef-e772-4aa9-83f3-076cfdbb8804" name="Changes" comment="add SuperCheckbox component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,14 @@
       <workItem from="1689318844605" duration="3895000" />
       <workItem from="1689330719106" duration="1701000" />
       <workItem from="1689345825256" duration="4421000" />
-      <workItem from="1689365071460" duration="396000" />
+      <workItem from="1689365071460" duration="1376000" />
+      <workItem from="1689450477303" duration="607000" />
+      <workItem from="1689536772341" duration="580000" />
+      <workItem from="1689707733092" duration="606000" />
+      <workItem from="1689883021250" duration="1402000" />
+      <workItem from="1689967075834" duration="599000" />
+      <workItem from="1690223040793" duration="1290000" />
+      <workItem from="1690394152422" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="add function to create new task">
       <created>1681143666923</created>
@@ -485,14 +492,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689331831368</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add SuperCheckbox component">
+      <created>1689365810695</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1689365810695</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add universal form component" />
     <MESSAGE value="add functionality to additemform" />
     <MESSAGE value="fix problems" />
     <MESSAGE value="add function addTodolist" />
@@ -517,6 +530,7 @@
     <MESSAGE value="add code to todolists-reducer to add todolist and write test" />
     <MESSAGE value="add code to todolists-reducer to change name todolist and write test" />
     <MESSAGE value="add code to todolists-reducer to change filter todolist and write test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code to todolists-reducer to change filter todolist and write test" />
+    <MESSAGE value="add SuperCheckbox component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SuperCheckbox component" />
   </component>
 </project>
